@@ -15,27 +15,27 @@ const menuCategories: MenuCategory[] = [
     label: "Makanan",
     emoji: "🍖",
     items: [
-      { id: 1,  name: "Sate Kambing",  desc: "Tusukan daging kambing muda pilihan, dibakar di atas bara arang kelapa, disajikan dengan sambal kecap spesial.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1529563021893-cc83c992d75d?w=600&h=400&fit=crop&auto=format", badge: "Terlaris" },
-      { id: 2,  name: "Gulai",         desc: "Kuah gulai pekat berbumbu kunyit & santan kental, daging kambing empuk hingga ke tulang.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1708782340377-882559d544fb?w=600&h=400&fit=crop&auto=format", badge: null },
-      { id: 3,  name: "Balungan",      desc: "Tulang kambing bertekstur gurih, dimasak berbumbu rempah Jawa hingga meresap sempurna.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1550367363-ea12860cc124?w=600&h=400&fit=crop&auto=format", badge: "Khas Jawa" },
-      { id: 4,  name: "Tongseng",      desc: "Perpaduan kari & sayuran segar dengan aroma kecap manis dan sedikit pedas yang menggugah selera.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1658372873359-91a8227f4f44?w=600&h=400&fit=crop&auto=format", badge: null },
-      { id: 5,  name: "Nasi Putih",    desc: "Nasi putih pulen hangat, cocok sebagai pendamping semua menu.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=600&h=400&fit=crop&auto=format", badge: null },
-      { id: 6,  name: "Nasi Gulai",    desc: "Nasi yang disiram kuah gulai kambing kental, gurih dan mengenyangkan.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1578704311488-bce5feb2780b?w=600&h=400&fit=crop&auto=format", badge: null },
-      { id: 7,  name: "Soto Ayam",     desc: "Soto kuah bening khas Jawa dengan ayam suwir, telur, dan rempah segar.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1677029969063-23ecbb98d0af?w=600&h=400&fit=crop&auto=format", badge: null },
-      { id: 8,  name: "Rujak Buah",    desc: "Aneka buah segar dengan bumbu rujak pedas-manis khas Jawa sebagai penutup segar.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1689031831628-a3c200fb1768?w=600&h=400&fit=crop&auto=format", badge: null },
+      { id: 1,  name: "Sate Kambing",  desc: "Tusukan daging kambing muda pilihan, dibakar di atas bara arang kelapa, disajikan dengan sambal kecap spesial.", price: "Rp 25.000", img: "https://images.unsplash.com/photo-1529563021893-cc83c992d75d?w=600&h=400&fit=crop&auto=format", badge: "Terlaris" },
+      { id: 2,  name: "Gulai",         desc: "Kuah gulai pekat berbumbu kunyit & santan kental, daging kambing empuk hingga ke tulang.", price: "Rp 15.000", img: "https://images.unsplash.com/photo-1708782340377-882559d544fb?w=600&h=400&fit=crop&auto=format", badge: null },
+      { id: 3,  name: "Balungan",      desc: "Tulang kambing bertekstur gurih, dimasak berbumbu rempah Jawa hingga meresap sempurna.", price: "Rp 15.000", img: "https://images.unsplash.com/photo-1550367363-ea12860cc124?w=600&h=400&fit=crop&auto=format", badge: "Khas Jawa" },
+      { id: 4,  name: "Tongseng",      desc: "Perpaduan kari & sayuran segar dengan aroma kecap manis dan sedikit pedas yang menggugah selera.", price: "Rp 15.000", img: "https://images.unsplash.com/photo-1658372873359-91a8227f4f44?w=600&h=400&fit=crop&auto=format", badge: null },
+      { id: 5,  name: "Nasi Putih",    desc: "Nasi putih pulen hangat, cocok sebagai pendamping semua menu.", price: "Rp 4.000", img: "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=600&h=400&fit=crop&auto=format", badge: null },
+      { id: 6,  name: "Nasi Gulai",    desc: "Nasi yang disiram kuah gulai kambing kental, gurih dan mengenyangkan.", price: "Rp 12.000", img: "https://images.unsplash.com/photo-1578704311488-bce5feb2780b?w=600&h=400&fit=crop&auto=format", badge: null },
+      { id: 7,  name: "Soto Ayam",     desc: "Soto kuah bening khas Jawa dengan ayam suwir, telur, dan rempah segar.", price: "Rp 10.000", img: "https://images.unsplash.com/photo-1677029969063-23ecbb98d0af?w=600&h=400&fit=crop&auto=format", badge: null },
+      { id: 8,  name: "Rujak Buah",    desc: "Aneka buah segar dengan bumbu rujak pedas-manis khas Jawa sebagai penutup segar.", price: "Rp 13.000", img: "https://images.unsplash.com/photo-1689031831628-a3c200fb1768?w=600&h=400&fit=crop&auto=format", badge: null },
     ],
   },
   {
     label: "Minuman",
     emoji: "🥤",
     items: [
-      { id: 9,  name: "Teh (Es/Hangat)",      desc: "Teh manis segar pilihan — nikmati dingin dengan es atau hangat menenangkan.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1777993623617-abc6adebea40?w=600&h=400&fit=crop&auto=format", badge: null },
-      { id: 10, name: "Jeruk (Es/Hangat)",     desc: "Perasan jeruk segar alami, pilihan es atau hangat sesuai selera.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=600&h=400&fit=crop&auto=format", badge: null },
-      { id: 11, name: "Es Tebu",               desc: "Air tebu segar diperas langsung, manis alami dan menyegarkan.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1676976198567-454aac912a69?w=600&h=400&fit=crop&auto=format", badge: null },
-      { id: 12, name: "Es Degan",              desc: "Air kelapa muda segar dengan potongan daging kelapa pilihan.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1617611140379-0e0ec17cc45f?w=600&h=400&fit=crop&auto=format", badge: null },
-      { id: 13, name: "Degan Utuh",            desc: "Kelapa muda utuh langsung disajikan, air segar dan daging kelapa lembut.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1638517307486-4c2ae5c45764?w=600&h=400&fit=crop&auto=format", badge: "Favorit" },
-      { id: 14, name: "Temulawak Hangat",      desc: "Minuman herbal tradisional Jawa, hangat dan menyehatkan tubuh.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1610450622827-195cb7308af8?w=600&h=400&fit=crop&auto=format", badge: "Herbal" },
-      { id: 15, name: "Kopi Jawa",             desc: "Kopi tubruk tradisional Jawa, kental, harum, dan otentik.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1669872484166-e11b9638b50e?w=600&h=400&fit=crop&auto=format", badge: null },
+      { id: 9,  name: "Teh (Es/Hangat)",      desc: "Teh manis segar pilihan — nikmati dingin dengan es atau hangat menenangkan.", price: "Rp 3.000", img: "https://images.unsplash.com/photo-1777993623617-abc6adebea40?w=600&h=400&fit=crop&auto=format", badge: null },
+      { id: 10, name: "Jeruk (Es/Hangat)",     desc: "Perasan jeruk segar alami, pilihan es atau hangat sesuai selera.", price: "Rp 4.000", img: "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=600&h=400&fit=crop&auto=format", badge: null },
+      { id: 11, name: "Es Tebu",               desc: "Air tebu segar diperas langsung, manis alami dan menyegarkan.", price: "Rp 5.000", img: "https://images.unsplash.com/photo-1676976198567-454aac912a69?w=600&h=400&fit=crop&auto=format", badge: null },
+      { id: 12, name: "Es Degan",              desc: "Air kelapa muda segar dengan potongan daging kelapa pilihan.", price: "Rp 5.000", img: "https://images.unsplash.com/photo-1617611140379-0e0ec17cc45f?w=600&h=400&fit=crop&auto=format", badge: null },
+      { id: 13, name: "Degan Utuh",            desc: "Kelapa muda utuh langsung disajikan, air segar dan daging kelapa lembut.", price: "Rp 13.000", img: "https://images.unsplash.com/photo-1638517307486-4c2ae5c45764?w=600&h=400&fit=crop&auto=format", badge: "Favorit" },
+      { id: 14, name: "Temulawak Hangat",      desc: "Minuman herbal tradisional Jawa, hangat dan menyehatkan tubuh.", price: "Rp 4.000", img: "https://images.unsplash.com/photo-1610450622827-195cb7308af8?w=600&h=400&fit=crop&auto=format", badge: "Herbal" },
+      { id: 15, name: "Kopi Jawa",             desc: "Kopi tubruk tradisional Jawa, kental, harum, dan otentik.", price: "Rp 7.000", img: "https://images.unsplash.com/photo-1669872484166-e11b9638b50e?w=600&h=400&fit=crop&auto=format", badge: null },
     ],
   },
   {
@@ -67,6 +67,19 @@ export default function App() {
   );
   const [form, setForm] = useState({ name: "", phone: "", note: "" });
   const [scrolled, setScrolled] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    const checkOperatingHours = () => {
+      const now = new Date();
+      const hours = now.getHours();
+      setIsOpen(hours >= 10 && hours < 15);
+    };
+
+    checkOperatingHours();
+    const interval = setInterval(checkOperatingHours, 60000);
+    return () => clearInterval(interval);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -266,10 +279,13 @@ export default function App() {
               </button>
             </div>
 
-            {/* Jam Info Badge */}
+            {/* Indikator Status Buka/Tutup Otomatis */}
             <div className="mt-10 inline-flex items-center gap-3 px-4 py-2.5 bg-[#1e1507]/80 border border-[#2e200a] rounded-lg backdrop-blur">
-              <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping" />
-              <span className="text-xs sm:text-sm text-[#f5ead8]">Jam Buka: <strong className="text-amber-500">10.00 – 15.00 WIB</strong></span>
+              <span className={`w-2.5 h-2.5 rounded-full ${isOpen ? "bg-emerald-500 animate-ping" : "bg-red-500"}`} />
+              <span className="text-xs sm:text-sm text-[#f5ead8]">
+                Status: <strong className={isOpen ? "text-emerald-400" : "text-red-400"}>{isOpen ? "Buka" : "Tutup"}</strong> 
+                <span className="text-[#a08060] ml-2">(10.00 – 15.00 WIB)</span>
+              </span>
             </div>
           </div>
         </div>
@@ -336,7 +352,6 @@ export default function App() {
             </p>
           </div>
 
-          {/* Category Tabs */}
           <div className="flex justify-center gap-2 sm:gap-3 mb-10 flex-wrap">
             {menuCategories.map((cat, i) => (
               <button
@@ -353,7 +368,6 @@ export default function App() {
             ))}
           </div>
 
-          {/* Grid Items */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {menuCategories[activeMenuTab].items.map((item) => (
               <div
@@ -412,7 +426,6 @@ export default function App() {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-start">
-            {/* Menu selection list */}
             <div className="bg-[#1e1507]/50 border border-[#2e200a] p-6 rounded-xl">
               <h3 className="font-semibold text-sm uppercase tracking-widest text-amber-500 mb-6">
                 Pilih Menu & Jumlah
@@ -470,7 +483,6 @@ export default function App() {
               </div>
             </div>
 
-            {/* Checkout Form */}
             <div className="bg-[#1e1507]/50 border border-[#2e200a] p-6 rounded-xl lg:sticky lg:top-28">
               <h3 className="font-semibold text-sm uppercase tracking-widest text-amber-500 mb-6">
                 Informasi Pemesan
@@ -644,7 +656,6 @@ export default function App() {
             ))}
           </div>
 
-          {/* Map Section */}
           <div className="w-full h-64 sm:h-80 relative rounded-xl overflow-hidden border border-[#2e200a] bg-[#1e1507] flex items-center justify-center">
             <img
               src="https://images.unsplash.com/photo-1584455486010-760bd0b28fc2?w=1200&h=400&fit=crop&auto=format"
