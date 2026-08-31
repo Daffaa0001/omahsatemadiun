@@ -1,0 +1,16 @@
+{
+  "name": "Omah Sate Kota Madiun",
+  "short_name": "Omah Sate",
+  "description": "Aplikasi e-commerce pemesanan Sate Kambing legendaris di Madiun.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0a04",
+  "theme_color": "#d97706",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect x=%225%22 y=%225%22 width=%2290%22 height=%2290%22 rx=%2216%22 fill=%22%231e1507%22 stroke=%22%23d97706%22 stroke-width=%223%22/><line x1=%2250%22 y1=%2218%22 x2=%2250%22 y2=%2282%22 stroke=%22%23d97706%22 stroke-width=%224%22 stroke-linecap=%22round%22/><circle cx=%2250%22 cy=%2235%22 r=%2210%22 fill=%22none%22 stroke=%22%23f5ead8%22 stroke-width=%223%22/><path d=%22M38 58 C38 50, 62 50, 62 66 C62 74, 38 74, 38 66%22 fill=%22none%22 stroke=%22%23f5ead8%22 stroke-width=%223%22 stroke-linecap=%22round%22/></svg>",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
