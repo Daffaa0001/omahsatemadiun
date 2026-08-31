@@ -15,23 +15,23 @@ const menuCategories: MenuCategory[] = [
     label: "Makanan",
     emoji: "🍖",
     items: [
-      { id: 1,  name: "Sate Kambing",  desc: "Tusukan daging kambing muda pilihan, dibakar di atas bara arang kelapa.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1529563021893-cc83c992d75d?w=600&h=400&fit=crop&auto=format", badge: "Terlaris" },
-      { id: 2,  name: "Gulai",         desc: "Kuah gulai pekat berbumbu kunyit & santan kental, daging kambing empuk.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1708782340377-882559d544fb?w=600&h=400&fit=crop&auto=format", badge: null },
-      { id: 3,  name: "Balungan",      desc: "Tulang kambing bertekstur gurih, dimasak berbumbu rempah Jawa.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1550367363-ea12860cc124?w=600&h=400&fit=crop&auto=format", badge: "Khas Jawa" },
-      { id: 4,  name: "Tongseng",      desc: "Perpaduan kari & sayuran segar dengan aroma kecap manis dan sedikit pedas.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1658372873359-91a8227f4f44?w=600&h=400&fit=crop&auto=format", badge: null },
+      { id: 1,  name: "Sate Kambing",  desc: "Tusukan daging kambing muda pilihan, dibakar di atas bara arang kelapa, disajikan dengan sambal kecap spesial.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1529563021893-cc83c992d75d?w=600&h=400&fit=crop&auto=format", badge: "Terlaris" },
+      { id: 2,  name: "Gulai",         desc: "Kuah gulai pekat berbumbu kunyit & santan kental, daging kambing empuk hingga ke tulang.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1708782340377-882559d544fb?w=600&h=400&fit=crop&auto=format", badge: null },
+      { id: 3,  name: "Balungan",      desc: "Tulang kambing bertekstur gurih, dimasak berbumbu rempah Jawa hingga meresap sempurna.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1550367363-ea12860cc124?w=600&h=400&fit=crop&auto=format", badge: "Khas Jawa" },
+      { id: 4,  name: "Tongseng",      desc: "Perpaduan kari & sayuran segar dengan aroma kecap manis dan sedikit pedas yang menggugah selera.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1658372873359-91a8227f4f44?w=600&h=400&fit=crop&auto=format", badge: null },
       { id: 5,  name: "Nasi Putih",    desc: "Nasi putih pulen hangat, cocok sebagai pendamping semua menu.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=600&h=400&fit=crop&auto=format", badge: null },
       { id: 6,  name: "Nasi Gulai",    desc: "Nasi yang disiram kuah gulai kambing kental, gurih dan mengenyangkan.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1578704311488-bce5feb2780b?w=600&h=400&fit=crop&auto=format", badge: null },
       { id: 7,  name: "Soto Ayam",     desc: "Soto kuah bening khas Jawa dengan ayam suwir, telur, dan rempah segar.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1677029969063-23ecbb98d0af?w=600&h=400&fit=crop&auto=format", badge: null },
-      { id: 8,  name: "Rujak Buah",    desc: "Aneka buah segar dengan bumbu rujak pedas-manis khas Jawa.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1689031831628-a3c200fb1768?w=600&h=400&fit=crop&auto=format", badge: null },
+      { id: 8,  name: "Rujak Buah",    desc: "Aneka buah segar dengan bumbu rujak pedas-manis khas Jawa sebagai penutup segar.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1689031831628-a3c200fb1768?w=600&h=400&fit=crop&auto=format", badge: null },
     ],
   },
   {
     label: "Minuman",
     emoji: "🥤",
     items: [
-      { id: 9,  name: "Teh (Es/Hangat)",      desc: "Teh manis segar pilihan — nikmati dingin dengan es atau hangat.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1777993623617-abc6adebea40?w=600&h=400&fit=crop&auto=format", badge: null },
+      { id: 9,  name: "Teh (Es/Hangat)",      desc: "Teh manis segar pilihan — nikmati dingin dengan es atau hangat menenangkan.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1777993623617-abc6adebea40?w=600&h=400&fit=crop&auto=format", badge: null },
       { id: 10, name: "Jeruk (Es/Hangat)",     desc: "Perasan jeruk segar alami, pilihan es atau hangat sesuai selera.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=600&h=400&fit=crop&auto=format", badge: null },
-      { id: 11, name: "Es Tebu",               desc: "Air tebu segar diperas langsung, manis alami dan menyegarkan.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1676976198567-454aac912a69?w=600&h=400&fit=crop&auto=format", badge: "Segar" },
+      { id: 11, name: "Es Tebu",               desc: "Air tebu segar diperas langsung, manis alami dan menyegarkan.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1676976198567-454aac912a69?w=600&h=400&fit=crop&auto=format", badge: null },
       { id: 12, name: "Es Degan",              desc: "Air kelapa muda segar dengan potongan daging kelapa pilihan.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1617611140379-0e0ec17cc45f?w=600&h=400&fit=crop&auto=format", badge: null },
       { id: 13, name: "Degan Utuh",            desc: "Kelapa muda utuh langsung disajikan, air segar dan daging kelapa lembut.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1638517307486-4c2ae5c45764?w=600&h=400&fit=crop&auto=format", badge: "Favorit" },
       { id: 14, name: "Temulawak Hangat",      desc: "Minuman herbal tradisional Jawa, hangat dan menyehatkan tubuh.", price: "Hubungi kami", img: "https://images.unsplash.com/photo-1610450622827-195cb7308af8?w=600&h=400&fit=crop&auto=format", badge: "Herbal" },
@@ -48,6 +48,7 @@ const menuCategories: MenuCategory[] = [
 ];
 
 const menuItems = menuCategories.flatMap((c) => c.items);
+
 const galleryImgs = [
   { url: "https://images.unsplash.com/photo-1529563021893-cc83c992d75d?w=600&h=500&fit=crop&auto=format", alt: "Sate Kambing" },
   { url: "https://images.unsplash.com/photo-1708782340377-882559d544fb?w=600&h=500&fit=crop&auto=format", alt: "Gulai Kambing" },
@@ -61,40 +62,11 @@ export default function App() {
   const [activeSection, setActiveSection] = useState("beranda");
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeMenuTab, setActiveMenuTab] = useState(0);
-  
-  // LOGIKA 1: PERSISTENCE STATE (Menyimpan data di LocalStorage)
-  const [cart, setCart] = useState<{ id: number; qty: number }[]>(() => {
-    const savedCart = localStorage.getItem('omahsate_cart');
-    return savedCart ? JSON.parse(savedCart) : menuItems.map((m) => ({ id: m.id, qty: 0 }));
-  });
-
-  const [form, setForm] = useState(() => {
-    const savedForm = localStorage.getItem('omahsate_user');
-    return savedForm ? JSON.parse(savedForm) : { name: "", phone: "", note: "" };
-  });
-
+  const [cart, setCart] = useState<{ id: number; qty: number }[]>(
+    menuItems.map((m) => ({ id: m.id, qty: 0 }))
+  );
+  const [form, setForm] = useState({ name: "", phone: "", note: "" });
   const [scrolled, setScrolled] = useState(false);
-  
-  // LOGIKA 2: ALGORITMA REKOMENDASI (Cross-Selling Engine)
-  const [recommendation, setRecommendation] = useState<MenuItem | null>(null);
-
-  // Sync data ke LocalStorage tiap ada perubahan
-  useEffect(() => {
-    localStorage.setItem('omahsate_cart', JSON.stringify(cart));
-    localStorage.setItem('omahsate_user', JSON.stringify(form));
-    
-    // Algoritma Rekomendasi: Jika beli Makanan, tawarkan Minuman yang belum dibeli
-    const hasMakanan = cart.some(c => c.qty > 0 && c.id >= 1 && c.id <= 8);
-    const hasMinuman = cart.some(c => c.qty > 0 && c.id >= 9 && c.id <= 15);
-    
-    if (hasMakanan && !hasMinuman) {
-      // Rekomendasikan Es Tebu (id 11) atau Jeruk (id 10)
-      const targetId = Math.random() > 0.5 ? 11 : 10; 
-      setRecommendation(menuItems.find(m => m.id === targetId) || null);
-    } else {
-      setRecommendation(null);
-    }
-  }, [cart, form]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -184,7 +156,9 @@ export default function App() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
+          {/* Brand Logo & Text */}
           <button onClick={() => scrollTo("beranda")} className="flex items-center gap-3 text-left group">
+            {/* Logo SVG Simpel */}
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="38" height="38" className="flex-shrink-0 transition-transform duration-300 group-hover:scale-105">
               <rect x="5" y="5" width="90" height="90" rx="16" fill="#1e1507" stroke="#d97706" strokeWidth="2" />
               <line x1="50" y1="18" x2="50" y2="82" stroke="#d97706" strokeWidth="3" strokeLinecap="round" />
@@ -201,6 +175,7 @@ export default function App() {
             </div>
           </button>
 
+          {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((l) => (
               <button
@@ -218,6 +193,7 @@ export default function App() {
             </button>
           </div>
 
+          {/* Mobile Hamburger Button */}
           <button
             aria-label="Menu"
             className="md:hidden flex flex-col gap-1.5 p-2 rounded-lg bg-[#1e1507] border border-[#2e200a]"
@@ -229,6 +205,7 @@ export default function App() {
           </button>
         </div>
 
+        {/* Mobile Dropdown */}
         {menuOpen && (
           <div className="md:hidden absolute top-full left-0 right-0 bg-[#0f0a04]/98 border-b border-[#2e200a] px-6 py-6 flex flex-col gap-4 shadow-2xl backdrop-blur-xl animate-fadeIn">
             {navLinks.map((l) => (
@@ -241,7 +218,10 @@ export default function App() {
                 {l.label}
               </button>
             ))}
-            <button onClick={() => scrollTo("pesan")} className="btn-amber w-full justify-center mt-2">
+            <button
+              onClick={() => scrollTo("pesan")}
+              className="btn-amber w-full justify-center mt-2"
+            >
               Pesan Sekarang
             </button>
           </div>
@@ -286,6 +266,7 @@ export default function App() {
               </button>
             </div>
 
+            {/* Jam Info Badge */}
             <div className="mt-10 inline-flex items-center gap-3 px-4 py-2.5 bg-[#1e1507]/80 border border-[#2e200a] rounded-lg backdrop-blur">
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping" />
               <span className="text-xs sm:text-sm text-[#f5ead8]">Jam Buka: <strong className="text-amber-500">10.00 – 15.00 WIB</strong></span>
@@ -355,6 +336,7 @@ export default function App() {
             </p>
           </div>
 
+          {/* Category Tabs */}
           <div className="flex justify-center gap-2 sm:gap-3 mb-10 flex-wrap">
             {menuCategories.map((cat, i) => (
               <button
@@ -371,6 +353,7 @@ export default function App() {
             ))}
           </div>
 
+          {/* Grid Items */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {menuCategories[activeMenuTab].items.map((item) => (
               <div
@@ -415,7 +398,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* PESAN / ORDER (Dengan Engine HKI: Cross-Selling) */}
+      {/* PESAN / ORDER */}
       <section id="pesan" className="py-24 bg-[#0f0a04] relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
@@ -429,6 +412,7 @@ export default function App() {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-start">
+            {/* Menu selection list */}
             <div className="bg-[#1e1507]/50 border border-[#2e200a] p-6 rounded-xl">
               <h3 className="font-semibold text-sm uppercase tracking-widest text-amber-500 mb-6">
                 Pilih Menu & Jumlah
@@ -486,7 +470,7 @@ export default function App() {
               </div>
             </div>
 
-            {/* Checkout Form & Rekomendasi Pintar */}
+            {/* Checkout Form */}
             <div className="bg-[#1e1507]/50 border border-[#2e200a] p-6 rounded-xl lg:sticky lg:top-28">
               <h3 className="font-semibold text-sm uppercase tracking-widest text-amber-500 mb-6">
                 Informasi Pemesan
@@ -515,22 +499,6 @@ export default function App() {
                       </div>
                     );
                   })}
-                </div>
-              )}
-
-              {/* FITUR HKI: ALGORITMA REKOMENDASI PINTAR */}
-              {recommendation && (
-                <div className="p-4 mb-6 bg-amber-900/20 border border-amber-600/30 rounded-lg flex items-center justify-between gap-3 animate-fadeIn">
-                  <div>
-                    <p className="text-[10px] uppercase tracking-wider font-semibold text-amber-500 mb-1">💡 Tambah Minuman Segar?</p>
-                    <p className="text-sm font-medium text-[#f5ead8]">{recommendation.name}</p>
-                  </div>
-                  <button 
-                    onClick={() => updateQty(recommendation.id, 1)}
-                    className="text-xs font-medium px-3 py-1.5 bg-amber-600 text-black rounded hover:bg-amber-500 transition"
-                  >
-                    + Tambah
-                  </button>
                 </div>
               )}
 
@@ -676,6 +644,7 @@ export default function App() {
             ))}
           </div>
 
+          {/* Map Section */}
           <div className="w-full h-64 sm:h-80 relative rounded-xl overflow-hidden border border-[#2e200a] bg-[#1e1507] flex items-center justify-center">
             <img
               src="https://images.unsplash.com/photo-1584455486010-760bd0b28fc2?w=1200&h=400&fit=crop&auto=format"
